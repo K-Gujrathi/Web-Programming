@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign Up Form</title>
+</head>
+<body style="background: #f9f7f7; font-family: 'Verdana', sans-serif; padding: 30px 0; margin: 0; text-align: center;">
+
+   <div style="background-color: #ffffff; width: 380px; margin: auto; padding: 20px 35px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+      <h1 style="color: #ff5722; font-size: 32px; font-weight: 600; margin-bottom: 15px;">Create Account</h1>
+      <p style="font-size: 13px; color: #777; margin-bottom: 25px;">Please fill in the details to register.</p>
+      
+      <form action="login.html" method="post">
+         <label for="username" style="font-size: 15px; color: #444; font-weight: bold; display: block; margin-bottom: 5px;">Username:</label>
+         <input type="text" id="username" name="username" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 15px;">
+
+         <label for="email" style="font-size: 15px; color: #444; font-weight: bold; display: block; margin-bottom: 5px;">Email Address:</label>
+         <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 15px;">
+
+         <label for="password" style="font-size: 15px; color: #444; font-weight: bold; display: block; margin-bottom: 5px;">Password:</label>
+         <input type="password" id="password" name="password" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 15px;">
+
+         <label for="confirm-password" style="font-size: 15px; color: #444; font-weight: bold; display: block; margin-bottom: 5px;">Confirm Password:</label>
+         <input type="password" id="confirm-password" name="confirm-password" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 15px;">
+
+         <label style="font-size: 13px; color: #444;">
+            <input type="checkbox" name="terms" required> I accept the <a href="#" style="color: #ff5722; text-decoration: none;">Terms of Use</a> and <a href="#" style="color: #ff5722; text-decoration: none;">Privacy Policy</a>
+         </label><br><br>
+
+         <button type="submit" style="background-color: #ff5722; color: white; padding: 14px 30px; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; width: 100%;">Sign Up</button>
+      </form>
+
+      <div style="margin-top: 20px;">
+         <p style="font-size: 13px; color: #444;">Already have an account? <a href="login.html" style="color: #ff5722;">Login here</a></p>
+      </div>
+   </div>
+
+</body>
+</html>

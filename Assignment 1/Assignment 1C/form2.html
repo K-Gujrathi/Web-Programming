@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML5 Elements Form</title>
+</head>
+<body style="background-color: #f2f2f2; font-family: 'Arial', sans-serif; padding: 30px; text-align: center;">
+
+   <div style="background-color: #ffffff; width: 450px; margin: auto; padding: 25px; border-radius: 8px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);">
+      
+      <form action="#" method="post">
+         <label for="textbox" style="font-size: 14px; color: #555555; font-weight: bold;">Enter Text:</label>
+         <input type="text" id="textbox" name="textbox" placeholder="Type something..." required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px;">
+
+         <fieldset style="border: 2px solid #67A7D8; padding: 10px; margin-bottom: 15px;">
+            <legend style="font-size: 16px; color: #67A7D8;">Choose your Gender:</legend>
+            <label><input type="radio" name="gender" value="male"> Male</label><br>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+         </fieldset>
+
+         <fieldset style="border: 2px solid #FFA500; padding: 10px; margin-bottom: 15px;">
+            <legend style="font-size: 16px; color: #FFA500;">Select your Hobbies:</legend>
+            <label><input type="checkbox" name="hobbies" value="reading"> Reading</label><br>
+            <label><input type="checkbox" name="hobbies" value="traveling"> Traveling</label><br>
+            <label><input type="checkbox" name="hobbies" value="coding"> Coding</label>
+         </fieldset>
+
+         <label for="selection" style="font-size: 14px; color: #555555; font-weight: bold;">Select your Mythical Creature:</label>
+         <select id="selection" name="creature" size="3" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px; margin-bottom: 15px;">
+            <option value="griffin">Griffin</option>
+            <option value="phoenix">Phoenix</option>
+            <option value="chupacabra">Chupacabra</option>
+         </select>
+
+         <label for="option" style="font-size: 14px; color: #555555; font-weight: bold;">Choose a Mystic Fruit:</label>
+         <select id="option" name="fruit" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px; margin-bottom: 15px;">
+            <option value="dragonfruit">Dragonfruit</option>
+            <option value="starfruit">Starfruit</option>
+         </select>
+
+         <label for="message" style="font-size: 14px; color: #555555; font-weight: bold;">Message:</label>
+         <textarea id="message" name="message" rows="3" placeholder="Write your message..." required style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px; margin-bottom: 15px;"></textarea>
+
+         <label for="city" style="font-size: 14px; color: #555555; font-weight: bold;">City:</label>
+         <input list="cities" id="city" name="city" placeholder="Choose a city..." style="width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px;">
+         <datalist id="cities">
+            <option value="Atlantis">
+            <option value="Gotham">
+         </datalist>
+
+         <button type="submit" style="background-color: #67A7D8; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%; margin-top: 10px;">Submit</button>
+      </form>
+   </div>
+
+</body>
+</html>

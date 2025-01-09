@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    table {
+        border-collapse: collapse;
+        height: 450px;
+        width: 900px;
+    }
+    td {
+        border: 1px solid #000;
+        text-align: center;
+        vertical-align: middle;
+        height: 75px;
+        width: 150px;
+    }
+    img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .filled {
+        background-color: #add8e6;
+    }
+    .positive-text {
+        font-family: 'Arial', sans-serif;
+        color: #4CAF50;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+   </style>
+</head>
+<body>
+   <table>
+       <tr>
+           <td colspan="2" rowspan="2">
+               <img src="image1.jpg" alt="Image1">
+           </td>
+           <td class="filled"></td>
+           <td rowspan="2" class="positive-text">
+               You are capable of amazing things!
+           </td>
+           <td colspan="2" rowspan="2"></td>
+       </tr>
+       <tr>
+           <td rowspan="2"><a href="mailto:keshav.gujrathi2023@vitstudent.ac.in">Email</a></td>
+       </tr>
+       <tr>
+           <td colspan="2"><a href="home.html">Home</a></td>
+           <td colspan="2"><a href="https://www.google.com/">
+            <img src="image2.png" alt="Image as hyperlink">
+        </a></td>
+           <td></td>
+       </tr>
+       <tr>
+           <td class="filled"></td>
+           <td colspan="2" class="filled"></td>
+           <td rowspan="2"></td>
+           <td colspan="2"></td>
+       </tr>
+       <tr>
+           <td colspan="2" rowspan="2" class="filled"></td>
+           <td rowspan="2" class="positive-text">Believe in yourself!</td>
+           <td rowspan="2" colspan="2" class="positive-text">You're doing great!</td>
+       </tr>
+       <tr>
+           <td class="positive-text">Keep going!</td>
+       </tr>
+   </table>
+</body>
+</html>
